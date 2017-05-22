@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageViewWeather" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textViewTime" />
+
+        <TextView
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textViewCloud" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textViewTemp" />
+    </TableRow>
+</LinearLayout>

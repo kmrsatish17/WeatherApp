@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Homework5Satish</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="noCityInFav">There is no city in Favourite</string>
+    <string name="strFeel">Feels Like:</string>
+    <string name="invalidInput">Not a valid input</string>
+</resources>
